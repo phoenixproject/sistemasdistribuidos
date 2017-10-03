@@ -1,1 +1,1 @@
-{<img alt='Stories in Ready' src='https://badge.waffle.io/phoenixproject/sistemasdistribuidos.png?label=ready&title=Ready' />}[https://waffle.io/phoenixproject/sistemasdistribuidos]
+{<img alt='Waffle.io - Issues in progress' src='https://badge.waffle.io/phoenixproject/sistemasdistribuidos.svg?label=in%20progress&title=In%20Progress' />}[https://waffle.io/phoenixproject/sistemasdistribuidos] 
