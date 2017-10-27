@@ -3,3 +3,9 @@
 <br>
 [![Throughput Graph](https://graphs.waffle.io/phoenixproject/sistemasdistribuidos/throughput.svg)](https://waffle.io/phoenixproject/sistemasdistribuidos/metrics/throughput)
 <br><br>
+
+# Cálculo do Speedup
+
+###### Onde S é Speedup e E é a eficácia do tempo.
+
+![Modelo Lógico](https://github.com/phoenixproject/sistemasdistribuidos/blob/master/_MEDIA/05_aula.jpg)
