@@ -4,6 +4,12 @@
 [![Throughput Graph](https://graphs.waffle.io/phoenixproject/sistemasdistribuidos/throughput.svg)](https://waffle.io/phoenixproject/sistemasdistribuidos/metrics/throughput)
 <br><br>
 
+1. [Laboratório de Sockets]
+ 1.1 [Exemplo de Sockets](http://www.cs.rpi.edu/%7Emoorthy/Courses/os98/Pgms/socket.html)<br/>
+ 1.2 Altere o programa acima para implementar um chat entre dois nós (cliente e servidor) da rede, ou seja, que permita a troca de múltiplas mensagens entre os dois usuários.
+O número de mensagens enviada por um dos usuários deve ser INDEPENDENTE do número de mensagens enviada pelo outro -- DICA: USE UMA THREAD ADICIONAL.
+A conexão deve ser finalizada apenas quando um dos usuários digitar "bye" -- neste caso, TODAS as threads devem ser encerradas (DICA: USE PTHREAD_CANCEL) e o SOCKET DEVE SER ENCERRADO - liberando os recursos do sistema.
+
 # Cálculo do Speedup
 
 ###### Onde S é Speedup e E é a eficácia do tempo.
@@ -28,4 +34,6 @@ http://penguin.ewu.edu/~trolfe/ParallelMerge/ParallelMerge.html
 ##### Termos para pesquisa:
 
 parallel merge sort with mpi mege-mpi.c
+
+[Powered by Phoenix Project](https://github.com/phoenixproject/sistemasdistribuidos)<br/>
 
