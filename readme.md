@@ -9,18 +9,24 @@
  1.2 Altere o programa acima para implementar um chat entre dois nós (cliente e servidor) da rede, ou seja, que permita a troca de múltiplas mensagens entre os dois usuários.
 O número de mensagens enviada por um dos usuários deve ser INDEPENDENTE do número de mensagens enviada pelo outro -- DICA: USE UMA THREAD ADICIONAL.
 A conexão deve ser finalizada apenas quando um dos usuários digitar "bye" -- neste caso, TODAS as threads devem ser encerradas (DICA: USE PTHREAD_CANCEL) e o SOCKET DEVE SER ENCERRADO - liberando os recursos do sistema.<br/>
+
 2. [Laboratório de Threads]<br/>
- 2.1 Altere o programa [thread_integral.c](https://github.com/phoenixproject/sistemasdistribuidos/_THREAD/_LAB) para descobrir o número de processadores (núcleos) do sistema e criar automaticamente o mesmo número de threads para calcular a integral.
+ 2.1 Altere o programa [thread_integral.c](https://github.com/phoenixproject/sistemasdistribuidos/tree/master/_THREAD/_LAB) para descobrir o número de processadores (núcleos) do sistema e criar automaticamente o mesmo número de threads para calcular a integral.
 O programa deve garantir a exclusão mútua através de um semáforo quando acessar a variável global 'integral'.
 
-Dica: Crie um vetor de threads e um vetor de argumentos. Faça um for para criar as threads e outro para o join.
+  Dica: Crie um vetor de threads e um vetor de argumentos. Faça um for para criar as threads e outro para o join.
 
-DICA: cheque os comandos: pthread_mutex_lock, pthread_mutex_unlock, get_nproc.
+  DICA: cheque os comandos: pthread_mutex_lock, pthread_mutex_unlock, get_nproc.
 
 
-Em seguida, faça um breve relatório explicativo do funcionamento do seu programa e envie em um arquivo único (zip) contendo o relatório (.ODT) e o seu programa (.C).
-Dentro de seu programa (.C), informe como proceder para compilar e rodar seu programa e qual a plataforma utilizada.<br/>
+  Em seguida, faça um breve relatório explicativo do funcionamento do seu programa e envie em um arquivo único (zip) contendo o relatório (.ODT) e o seu programa (.C).
+  Dentro de seu programa (.C), informe como proceder para compilar e rodar seu programa e qual a plataforma utilizada.<br/>
 
+3. [Laboratório de MPI]<br/>
+ 3.1 Neste laboratório vamos utilizar o padrão MPI (3.1) -- que é uma interface de troca de mensagens -- para implementar uma versão paralela do programa concorrente Integral utilizado no Laboratório de threads.<br/>
+
+	 Para isso, escolhemos a implementação da biblioteca OpenMPI (https://www.open-mpi.org).
+ 
 
 # Cálculo do Speedup
 
